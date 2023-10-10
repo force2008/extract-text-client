@@ -53,7 +53,7 @@ const UploadCompent: React.FC = () => {
         name: 'file',
         accept:".pdf",
         multiple: true,
-        action: 'https://extract-text-server-cgfle5yzj-force2008.vercel.app/upload',
+        action: 'https://extract-text-server.vercel.app/',
         onChange(info) {
             const { status } = info.file;
             if (status !== 'uploading') {
